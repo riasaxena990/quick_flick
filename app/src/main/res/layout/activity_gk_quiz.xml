@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:background="@color/white"
+    tools:context=".gk.gk_quiz">
+
+    <TextView
+        android:id="@+id/DisplayName2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0/20"
+        android:background="#8b008b"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <RadioGroup
+        android:id="@+id/answerGroup2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/DisplayName2"
+        android:layout_alignRight="@+id/DisplayName2"
+        android:layout_centerVertical="true">
+
+        <RadioButton
+            android:id="@+id/radiobutton21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="A"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/radiobutton22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="B"
+            android:textColor="@color/black" />
+
+
+        <RadioButton
+            android:id="@+id/radiobutton23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="C"
+            android:textColor="@color/black"/>
+
+        <RadioButton
+            android:id="@+id/radiobutton24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="D"
+            android:textColor="@color/black" />
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:textColor="@color/black"
+        android:background="@drawable/border2"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="110dp"
+        android:id="@+id/next2"
+        android:layout_below="@+id/answerGroup2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="Next"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:backgroundTint="@color/black"/>
+
+    <Button
+        android:id="@+id/quit2"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:textColor="@color/black"
+        android:background="@drawable/border2"
+        android:layout_marginRight="110dp"
+        android:layout_below="@+id/next2"
+        android:text="Quit"
+        android:textSize="16sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/black"
+        android:textAlignment="center"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_italic"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/gk_question"
+        android:layout_above="@+id/answerGroup2"
+        android:text="Question"
+        android:textColor="@color/black"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="70dp"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+
+        android:id="@+id/scoreView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/DisplayName2"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="20dp"
+        android:text="Your Score"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+    <TextView
+
+        android:id="@+id/score2"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:layout_below="@+id/DisplayName2"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="320dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+
+</RelativeLayout>

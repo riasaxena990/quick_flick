@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="App_theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="fontFamily">@font/anton_regular</item>
+
+    </style>
+
+    <style name="App_theme2" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="fontFamily">@font/slogan_font</item>
+
+    </style>
+    <style name="App_theme3" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="fontFamily">@font/poppins_regular</item>
+
+    </style>
+    <style name="App_theme4" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="fontFamily">@font/poppins_italic</item>
+
+    </style>
+
+</resources>

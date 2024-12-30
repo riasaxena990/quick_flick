@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/grandient">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="251dp"
+        android:layout_height="343dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/intro_logo"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <TextView
+        android:id="@+id/by"
+        android:layout_width="15dp"
+        android:layout_height="17dp"
+        android:layout_marginTop="100dp"
+        android:text="By"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:layout_editor_absoluteX="180dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:text=" AR"
+        android:fontFamily="@font/slogan_font"
+
+        android:textColor="@color/white"
+        android:layout_marginTop="1dp"
+        app:layout_constraintTop_toBottomOf="@+id/by"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="579dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--//to,bottom,start,end center mei laane ke liye use krte hai-->

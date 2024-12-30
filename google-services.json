@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "116887084117",
+    "project_id": "quiz-flix",
+    "storage_bucket": "quiz-flix.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:116887084117:android:7f987878c9150e9cc588dc",
+        "android_client_info": {
+          "package_name": "com.example.quizflicknew"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1ACmir6FjO8H0Aw1zi66XxTDryQI9dMk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

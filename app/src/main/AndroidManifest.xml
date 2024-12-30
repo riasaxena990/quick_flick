@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuizFlickNew"
+        tools:targetApi="31">
+        <activity
+            android:name=".java.java_result"
+            android:exported="false" />
+        <activity
+            android:name=".cplus.cplus_result"
+            android:exported="false" />
+        <activity
+            android:name=".gk.gk_result"
+            android:exported="false" />
+        <activity
+            android:name=".gk.gkcountdown"
+            android:exported="false" />
+        <activity
+            android:name=".cplus.cplus_countdown"
+            android:exported="false" />
+        <activity
+            android:name=".java.java_countdown"
+            android:exported="false" />
+        <activity
+            android:name=".gk.gk_quiz"
+            android:exported="false" />
+        <activity
+            android:name=".cplus.cplus_quiz"
+            android:exported="false" />
+        <activity
+            android:name=".java.java_quiz"
+            android:exported="false" />
+        <activity
+            android:name=".verify"
+            android:exported="false" />
+        <activity
+            android:name=".forgetpassword"
+            android:exported="false" />
+        <activity
+            android:name=".intro"
+            android:exported="false" />
+        <activity
+            android:name=".menu"
+            android:exported="false" />
+        <activity
+            android:name=".register"
+            android:exported="false" />
+        <activity
+            android:name=".login_screen"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

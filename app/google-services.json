@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "291819191380",
+    "firebase_url": "https://quizflick-263f2-default-rtdb.firebaseio.com",
+    "project_id": "quizflick-263f2",
+    "storage_bucket": "quizflick-263f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291819191380:android:6c1cd76ff7265ea87841c1",
+        "android_client_info": {
+          "package_name": "com.example.quizflicknew"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDb4xAIgkSz_M-D4sSlf19fvg7uAT1wV4g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
